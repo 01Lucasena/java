@@ -28,11 +28,9 @@ public class Engenheiro extends Funcionario{
     @Override
     public String toString() {
         return "\nDados do Engenheiro" +
-                "\nNome: " + super.nome +
-                "\nCPF: " + super.cpf +
-                "\nRG: " + super.rg +
-                "\nCREA: " + crea +
-                "\nSalário: " + super.salario;
+                super.toString() +
+                "\nCREA: " + crea;
+                
     }
     
     
